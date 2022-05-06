@@ -53,8 +53,7 @@ li {
 .graphicrow {
     display: flex;
     flex: 1;
-    gap: 32px;
-
+    gap: 80px;
 }
 
 .graphic {
@@ -65,10 +64,13 @@ li {
 }
 
 .imgbox {
+    display: flex;
     border: 3px solid #3882f6;
-    width: 150px;
+    width: 200px;
     height: 150px;
-    border-radius: 15px
+    border-radius: 15px;
+    padding: 4px;
+    align-items: center;
 }
 
 .container3 {
@@ -111,7 +113,6 @@ li {
     }
 
  .right {
-     background-color: gray;
      width: 50%;
      display: flex;
      justify-content: center;
@@ -123,7 +124,6 @@ li {
      background-color: #3882f6;
      color: white;
      padding: 8px;
-     flex: ;
      border-radius:justify-content 10px;
      width: 128px;  
      border-radius: 10px;
@@ -145,6 +145,9 @@ li {
     width: 700px;
 }
 
+.ctatext {
+    color: white;
+}
 .cta button {
     border: 2px solid white;
     height:fit-content;
@@ -156,4 +159,10 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 16px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
 }
